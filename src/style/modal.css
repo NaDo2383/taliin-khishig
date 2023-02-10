@@ -1,0 +1,80 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(221 221 221 / 90%);
+}
+
+.modal-body {
+    padding: 40px;
+    width: 60vw;
+    height: 70vh;
+    background-color: white;
+    right: 20vw;
+    position: absolute;
+    top: 100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.modal-header {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+label {
+    padding-left: 10px;
+}
+
+.modalInput {
+    border: 1px solid rgb(255, 120, 73);
+    border-radius: 10px;
+    outline: none;
+}
+
+.modalFileInput {
+    border: 1px solid rgb(255, 120, 73);
+    border-radius: 10px;
+}
+
+.modal-btn {
+    border-radius: 20px;
+    border: 1px solid rgb(255, 120, 73);
+    padding: 5px 10px 5px 10px;
+}
+
+.close {
+    background-color: red;
+    color: white;
+}
+
+.add {
+    background-color: rgb(255, 120, 73);
+    color: white;
+}
+
+.modal-btn-section {
+    display: flex;
+    margin: 0 auto;
+    gap: 50px;
+}
